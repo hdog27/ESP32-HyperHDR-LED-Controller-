@@ -31,10 +31,10 @@ This project was built to:
 
 
 ### System Architecture
-PC → HyperHDR | Network | ESP32 | LED Strip
+PC | HyperHDR | Network | ESP32 | LED Strip
 
 
-## Setup Summary
+## Setup Summary/Steps
 1. Install the CP210x (ESP32 Model dependent) driver on Windows so that it can talk to/recognize the ESP32 once connected to the PC
 1. Flash WLED firmware to ESP32
 2. Connect the LED strip to the ESP32 pins (check the ESP32 model # to see your exact pin layout diagram)
