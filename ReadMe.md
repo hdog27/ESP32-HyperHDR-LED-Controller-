@@ -1,14 +1,14 @@
-![Physical ESP32 + LED strip configuration](ESP32 HyperHDR_scrubbed.png)
-![Close up image of ESP32 wiring + LED strip wiring] (ESP32 HyperHDR Close Up_scrubbed)
+<p align="center"><img width="300" alt="ESP32 HyperHDR_scrubbed" src="https://github.com/user-attachments/assets/da46710f-e789-4915-81f1-5b043e90b04d" />
 
+<p align="center">ESP32 + LED strip configuration 
 
-ESP32 HyperHDR Lighting Controller
+<p align="center"><sub>Images sanitized to remove metadata before upload.</sub>
 
-Overview
+# Overview 😎
 Custom-built ambient lighting system using an ESP32 microcontroller and HyperHDR to provide real-time reactive lighting based on screen output. This project integrates hardware wiring, firmware flashing, and network configuration.
 
 
-Purpose
+### Purpose
 This project was built to:
 - Learn microcontroller configuration
 - Practice hardware + software integration
@@ -16,25 +16,25 @@ This project was built to:
 - Gain hands-on troubleshooting experience
 
 
-Hardware Used
+### Hardware Used
 - ESP32 microcontroller
 - Addressable LED strip
 - 5v DC Power supply (my strip recommended 30amps, see how many LEDs you will use to use find the recommended AMPs)
 - soldering gun + solder wire (or wire connectors)
 
 
-Software Used
+### Software Used
 - Windows 11
 - HyperHDR
 - ESP firmware flasher 
 - WLED controller firmware
 
 
-System Architecture
+### System Architecture
 PC → HyperHDR | Network | ESP32 | LED Strip
 
 
-Setup Summary
+## Setup Summary
 1. Install the CP210x (ESP32 Model dependent) driver on Windows so that it can talk to/recognize the ESP32 once connected to the PC
 1. Flash WLED firmware to ESP32
 2. Connect the LED strip to the ESP32 pins (check the ESP32 model # to see your exact pin layout diagram)
@@ -45,25 +45,25 @@ Setup Summary
 5. Enable software screen grabbing in HyperHDR 
 
 
-Network Configuration
+### Network Configuration
 - ESP32 connected via WiFi
 - Static IP recommended
 - Controlled via local network API
 
 
-Challenges Encountered
+### Challenges Encountered
 Example:
 - ESP32 not detected initially → fixed windows driver issue
 - Connection drops → assigned static IP
 
 
-Lessons Learned
+### Lessons Learned
 - Importance of stable power delivery
 - Firmware compatibility matters
 - Network configuration is critical for IoT stability
 
 
-Future Improvements
+### Future Improvements
 - Add enclosure
 - Implement VLAN isolation for IoT devices
 - Add an authentication layer
