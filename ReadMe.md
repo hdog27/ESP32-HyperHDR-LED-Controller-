@@ -1,7 +1,6 @@
 <p align="center"><img width="300" alt="ESP32 HyperHDR_scrubbed" src="https://github.com/user-attachments/assets/da46710f-e789-4915-81f1-5b043e90b04d" />
 
 <p align="center">ESP32 + LED strip configuration 
-
 <p align="center"><sub>Images sanitized to remove metadata before upload.</sub>
 
 # Overview 😎
