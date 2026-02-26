@@ -1,3 +1,7 @@
+![Physical ESP32 + LED strip configuration](ESP32 HyperHDR_scrubbed.png)
+![Close up image of ESP32 wiring + LED strip wiring] (ESP32 HyperHDR Close Up_scrubbed)
+
+
 ESP32 HyperHDR Lighting Controller
 
 Overview
